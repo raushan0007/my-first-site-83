@@ -1,4 +1,4 @@
-import { CalendarDays, Clock, Stethoscope, Mic, Users, Utensils, Mail } from "lucide-react"
+import { CalendarDays, Clock, MapPin, Stethoscope, Mic, Users, Utensils, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const agenda = [
@@ -51,6 +51,13 @@ export default function Page() {
                 <dd className="font-medium">6:00 PM</dd>
               </div>
             </div>
+            <div className="flex items-center gap-3">
+              <MapPin className="size-5 text-primary" aria-hidden="true" />
+              <div className="text-left">
+                <dt className="sr-only">Venue</dt>
+                <dd className="font-medium">Buddha Heritage, Patna</dd>
+              </div>
+            </div>
           </dl>
 
           <div className="mt-10">
@@ -92,12 +99,16 @@ export default function Page() {
             </span>
             <h2 className="mt-5 text-2xl font-semibold tracking-tight sm:text-3xl">How to sign up</h2>
             <p className="mx-auto mt-4 max-w-lg text-pretty leading-relaxed text-secondary-foreground">
-              Please RSVP by emailing your details. RSVPs must be received by{" "}
+              Please RSVP by emailing your details to{" "}
+              <a href="mailto:raushan.smile@gmail.com" className="font-semibold text-foreground underline">
+                raushan.smile@gmail.com
+              </a>
+              . RSVPs must be received by{" "}
               <span className="font-semibold text-foreground">September 10, 2026</span>.
             </p>
             <div className="mt-8">
               <Button asChild size="lg">
-                <a href="mailto:?subject=RSVP%20-%20Doctor%20Conference%20(15%20Sep%202026)&body=Please%20include%20your%20details%20below%3A%0A%0AName%3A%0AProfession%2FSpecialty%3A%0AContact%20number%3A%0A">
+                <a href="mailto:raushan.smile@gmail.com?subject=RSVP%20-%20Doctor%20Conference%20(15%20Sep%202026)&body=Please%20include%20your%20details%20below%3A%0A%0AName%3A%0AProfession%2FSpecialty%3A%0AContact%20number%3A%0A">
                   RSVP by email
                 </a>
               </Button>
