@@ -30,6 +30,7 @@ export default function Page() {
             For doctors &amp; medical professionals
           </div>
           <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-6xl">Doctor Conference 2026</h1>
+          <p className="mt-3 text-sm font-medium text-muted-foreground">Now on GitHub</p>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
             Join leading medical professionals to discuss the latest advancements in patient care and healthcare
             technology.
