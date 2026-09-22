@@ -29,7 +29,7 @@ export default function Page() {
             <Stethoscope className="size-4" aria-hidden="true" />
             For doctors &amp; medical professionals
           </div>
-          <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-6xl">Doctor Conference</h1>
+          <h1 className="text-balance text-4xl font-semibold tracking-tight sm:text-6xl">Doctor Conference 2026</h1>
           <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
             Join leading medical professionals to discuss the latest advancements in patient care and healthcare
             technology.
