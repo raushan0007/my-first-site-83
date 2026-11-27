@@ -119,7 +119,7 @@ export default function Page() {
 
       <footer className="border-t border-border">
         <div className="mx-auto max-w-3xl px-6 py-8 text-center text-sm text-muted-foreground">
-          Doctor Conference · 15 September 2026 · 6:00 PM
+          Organized by Raushan Kumar Gupta&nbsp; Built with v0, <a href="https://github.com/raushan0007/my-first-site-83" className="underline underline-offset-4">code on GitHub</a>
         </div>
       </footer>
     </main>
