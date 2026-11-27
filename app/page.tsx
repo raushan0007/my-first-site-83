@@ -119,7 +119,8 @@ export default function Page() {
 
       <footer className="border-t border-border">
         <div className="mx-auto max-w-3xl px-6 py-8 text-center text-sm text-muted-foreground">
-          Organized by Raushan Kumar Gupta&nbsp; Built with v0, <a href="https://github.com/raushan0007/my-first-site-83" className="underline underline-offset-4">code on GitHub</a>
+          <p>Organized by Raushan Kumar Gupta&nbsp; Built with v0, <a href="https://github.com/raushan0007/my-first-site-83" className="underline underline-offset-4">code on GitHub</a></p>
+          <p className="mt-1 text-xs">Last updated: November 2026</p>
         </div>
       </footer>
     </main>
